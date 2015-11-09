@@ -2,10 +2,6 @@ wifi.setmode(wifi.STATION)
 wifi.sta.config("[Insert SSID Here]", "[Insert Wifi Password Here]")
 print(wifi.sta.getip())
 require("servo")
-led1 = 4
-led2 = 7
-gpio.mode(led1, gpio.OUTPUT)
-gpio.mode(led2, gpio.OUTPUT)
 srv=net.createServer(net.TCP)
 srv:listen(80,function(conn)
     conn:on("receive", function(client,request)

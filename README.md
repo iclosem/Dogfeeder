@@ -38,7 +38,7 @@ Your assigned ip address should show up.  If "nil" shows up, try running "print(
 
 7) To get the servo hooked up paste in the contents of "servo.lua" (in the NodeMCU directory) into a new file and save it as "servo.lua"
 
-8) On the Parallax Rotation Servo connect the black wire to Ground, Red wire to Power, and the White Wire to Pin 4.
+8) On the Parallax Rotation Servo connect the black wire to Ground, Red wire to Vin, and the White Wire to Pin 4.
 
 9) Navigate to the website http://yournodemcuipaddress and click either "ON" button and the servo should spin.
 
